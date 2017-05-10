@@ -61,6 +61,7 @@ packages: [
   "language-jade"
   "language-javascript-jsx"
   "language-liquid"
+  "language-log"
   "language-lua"
   "language-markdown"
   "language-nginx"

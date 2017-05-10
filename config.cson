@@ -4,6 +4,7 @@
   "atom-beautify":
     general:
       _analyticsUserId: "2a4cfe25-3546-4503-b4c6-1a876ee7352a"
+      beautifyEntireFileOnSave: false
     html:
       indent_size: 2
     js:
@@ -132,6 +133,8 @@
   "keyboard-scroll": {}
   "language-babel":
     autoIndentJSX: true
+  "language-log":
+    tail: true
   linter: {}
   "linter-eslint": {}
   "linter-htmlhint": {}
