@@ -1,0 +1,200 @@
+"*":
+  "Sublime-Style-Column-Selection":
+    mouseButtonTrigger: "Middle"
+  "atom-beautify":
+    general:
+      _analyticsUserId: "2a4cfe25-3546-4503-b4c6-1a876ee7352a"
+    html:
+      indent_size: 2
+    js:
+      indent_size: 2
+    json:
+      indent_size: 2
+  "atom-ternjs":
+    documentation: false
+    inlineFnCompletion: false
+    snippetsFirst: true
+    useSnippets: true
+    useSnippetsAndFunction: true
+  "autocomplete-ruby":
+    rsensePath: "/usr/local/var/rbenv/shims/rsense"
+  core:
+    customFileTypes:
+      source: []
+      "source.ini": [
+        ".buckconfig"
+        ".flowconfig"
+        ".hgrc"
+      ]
+      "source.json": [
+        ".eslintrc"
+        ".arcconfig"
+        ".roadhogrc"
+        ".roadhogrc.example"
+        "BUCK.autodeps"
+      ]
+      "source.python": [
+        "BUCK"
+      ]
+    disabledPackages: [
+      "language-gfm"
+      "language-gfm"
+      "language-gfm"
+      "language-gfm"
+      "language-gfm"
+      "language-gfm"
+      "language-gfm"
+      "language-gfm"
+      "language-gfm"
+      "language-gfm"
+      "linter-erb"
+      "linter-ruby"
+      "language-javascript-semantic"
+      "git-projects"
+      "activate-power-mode"
+      "atom-typescript"
+      "emmet"
+      "tab-switcher"
+      "smart-tab-name"
+      "advanced-open-file"
+      "autocomplete-php"
+      "dash"
+      "debugger"
+      "eval-javascript"
+      "haskell-grammar"
+      "html2haml"
+      "html2jade-plus"
+      "ruby-debugger"
+      "language-ocaml"
+      "language-thrift"
+      "node-debugger"
+      "metrics"
+      "language-toml"
+      "language-perl"
+      "language-go"
+      "language-csharp"
+      "language-clojure"
+      "tool-bar"
+      "indentation-indicator"
+      "tab-control"
+      "language-swig"
+      "language-javascript-jsx"
+      "welcome"
+      "autocomplete-ruby"
+      "goto-definition"
+      "mixed-indent-warning"
+      "linter-less"
+      "linter-tidy"
+      "linter-csslint"
+      "csslint"
+      "linter-spell"
+      "markdown-scroll-sync"
+      "react"
+      "ide-flow"
+      "jsformat"
+      "rails-snippets"
+      "react-snippets"
+    ]
+    projectHome: "/Users/mdluo/Develop"
+    telemetryConsent: "no"
+    titleBar: "custom"
+    warnOnLargeFileLimit: 0.1
+  editor:
+    fontFamily: "Menlo"
+    fontSize: 17
+    invisibles: {}
+    lineHeight: 2
+    scrollSensitivity: 20
+    showIndentGuide: true
+    softWrap: true
+  emmet: {}
+  "exception-reporting":
+    userId: "c634c97f-c962-b450-ba76-92fcc9790ed4"
+  "file-icons": {}
+  "file-watcher":
+    promptWhenFileHasChangedOnDisk: false
+  "git-plus":
+    general:
+      _analyticsUserId: "b5769d43-d078-4d13-bfd1-7c398ee60f49"
+  "highlight-line":
+    enableBackgroundColor: false
+  "highlight-selected": {}
+  hyperclick: {}
+  "ide-flow":
+    flowPath: "/usr/local/bin/flow"
+  "japanese-wrap":
+    characterWidth: {}
+    lineBreakingRule:
+      japanese: false
+  "js-hyperclick":
+    jumpToImport: true
+    usePendingPanes: true
+  "keyboard-scroll": {}
+  "language-babel":
+    autoIndentJSX: true
+  linter: {}
+  "linter-eslint": {}
+  "linter-htmlhint": {}
+  "linter-less":
+    ignoreLessrc: true
+  "linter-ruby": {}
+  "linter-stylelint": {}
+  "linter-tidy": {}
+  "linter-ui-default": {}
+  "markdown-writer": {}
+  minimap:
+    plugins:
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+    scrollAnimation: true
+  "node-debugger": {}
+  nuclide:
+    installRecommendedPackages: true
+    "nuclide-adb-logcat": {}
+    "nuclide-arcanist": {}
+    "nuclide-buck": {}
+    "nuclide-clang": {}
+    "nuclide-console": {}
+    "nuclide-datatip": {}
+    "nuclide-debugger-native": {}
+    "nuclide-debugger-node": {}
+    "nuclide-debugger-php": {}
+    "nuclide-definition-preview": {}
+    "nuclide-flow":
+      canUseFlowBin: true
+      excludeOtherAutocomplete: true
+    "nuclide-hack": {}
+    "nuclide-health": {}
+    "nuclide-home":
+      showHome: false
+    "nuclide-ios-simulator-logs": {}
+    "nuclide-ocaml": {}
+    "nuclide-python": {}
+    "nuclide-react-native": {}
+    "nuclide-related-files": {}
+    "nuclide-remote-projects": {}
+    "nuclide-swift": {}
+    use:
+      "nuclide-file-tree": false
+      "nuclide-flow": false
+      "nuclide-source-control-side-bar": false
+  "one-light-ui": {}
+  "package-sync":
+    createOnChange: true
+    forceOverwrite: true
+  preview:
+    _analyticsUserId: "333894b7-880e-4087-bc95-a1040e187128"
+  react: {}
+  "ruby-block":
+    highlightLineNumber: true
+  "ruby-debugger": {}
+  "spell-check": {}
+  tabs:
+    enableVcsColoring: true
+    tabScrolling: true
+    usePreviewTabs: true
+  "tree-view": {}
+  welcome:
+    showOnStartup: false

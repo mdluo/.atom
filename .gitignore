@@ -1,0 +1,17 @@
+/packages/*
+!/packages/package-sync
+
+/storage
+/compile-cache
+/blob-store
+/dev
+/.npm
+/.node-gyp
+/.apm
+/.git
+/.git-history
+/.node-gyp
+
+.DS_Store
+*.log
+npm-debug.log*
