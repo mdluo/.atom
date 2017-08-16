@@ -19,6 +19,7 @@
     useSnippetsAndFunction: true
   "autocomplete-ruby":
     rsensePath: "/usr/local/var/rbenv/shims/rsense"
+  autosave: {}
   core:
     customFileTypes:
       source: []
@@ -76,14 +77,12 @@
       "language-csharp"
       "language-clojure"
       "tool-bar"
-      "indentation-indicator"
       "tab-control"
       "language-swig"
       "language-javascript-jsx"
       "welcome"
       "autocomplete-ruby"
       "goto-definition"
-      "mixed-indent-warning"
       "linter-less"
       "linter-tidy"
       "linter-csslint"
@@ -95,6 +94,12 @@
       "jsformat"
       "rails-snippets"
       "react-snippets"
+      "language-swift"
+      "mixed-indent-warning"
+      "indentation-indicator"
+      "api-blueprint-preview"
+      "language-api-blueprint"
+      "autosave"
     ]
     projectHome: "/Users/mdluo/Develop"
     telemetryConsent: "no"
@@ -102,7 +107,7 @@
     warnOnLargeFileLimit: 0.1
   editor:
     fontFamily: "Menlo"
-    fontSize: 17
+    fontSize: 16
     invisibles: {}
     lineHeight: 2
     scrollSensitivity: 20
@@ -131,8 +136,7 @@
     jumpToImport: true
     usePendingPanes: true
   "keyboard-scroll": {}
-  "language-babel":
-    autoIndentJSX: true
+  "language-babel": {}
   "language-log":
     tail: true
   linter: {}
@@ -143,7 +147,8 @@
   "linter-ruby": {}
   "linter-stylelint": {}
   "linter-tidy": {}
-  "linter-ui-default": {}
+  "linter-ui-default":
+    panelHeight: 69
   "markdown-writer": {}
   minimap:
     plugins:

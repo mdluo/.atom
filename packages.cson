@@ -69,6 +69,7 @@ packages: [
   "language-swift"
   "language-swig"
   "language-thrift"
+  "language-vue"
   "lines"
   "linter"
   "linter-api-blueprint"
