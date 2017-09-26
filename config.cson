@@ -17,6 +17,9 @@
     snippetsFirst: true
     useSnippets: true
     useSnippetsAndFunction: true
+  "autocomplete-modules":
+    babelPluginModuleResolver: true
+    webpack: true
   "autocomplete-ruby":
     rsensePath: "/usr/local/var/rbenv/shims/rsense"
   autosave: {}
@@ -54,7 +57,6 @@
       "language-javascript-semantic"
       "git-projects"
       "activate-power-mode"
-      "atom-typescript"
       "emmet"
       "tab-switcher"
       "smart-tab-name"
@@ -104,7 +106,8 @@
     projectHome: "/Users/mdluo/Develop"
     telemetryConsent: "no"
     titleBar: "custom"
-    warnOnLargeFileLimit: 0.1
+    useProxySettingsWhenCallingApm: false
+    warnOnLargeFileLimit: 0.5
   editor:
     fontFamily: "Menlo"
     fontSize: 16
@@ -147,8 +150,7 @@
   "linter-ruby": {}
   "linter-stylelint": {}
   "linter-tidy": {}
-  "linter-ui-default":
-    panelHeight: 69
+  "linter-ui-default": {}
   "markdown-writer": {}
   minimap:
     plugins:
