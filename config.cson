@@ -1,6 +1,7 @@
 "*":
   "Sublime-Style-Column-Selection":
     mouseButtonTrigger: "Middle"
+    selectKeyTrigger: "None"
   "atom-beautify":
     general:
       _analyticsUserId: "2a4cfe25-3546-4503-b4c6-1a876ee7352a"
@@ -75,7 +76,6 @@
       "metrics"
       "language-toml"
       "language-perl"
-      "language-go"
       "language-csharp"
       "language-clojure"
       "tool-bar"
@@ -102,6 +102,7 @@
       "api-blueprint-preview"
       "language-api-blueprint"
       "autosave"
+      "js-hyperclick"
     ]
     projectHome: "/Users/mdluo/Develop"
     telemetryConsent: "no"
@@ -128,7 +129,10 @@
   "highlight-line":
     enableBackgroundColor: false
   "highlight-selected": {}
-  hyperclick: {}
+  hyperclick:
+    darwinTriggerKeys: "altKey"
+    linuxTriggerKeys: "altKey"
+    win32TriggerKeys: "altKey"
   "ide-flow":
     flowPath: "/usr/local/bin/flow"
   "japanese-wrap":
