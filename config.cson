@@ -12,6 +12,13 @@
       indent_size: 2
     json:
       indent_size: 2
+  "atom-ide-ui":
+    hyperclick:
+      darwinTriggerKeys: "altKey"
+    use:
+      hyperclick: false
+  "atom-package-deps":
+    ignored: []
   "atom-ternjs":
     documentation: false
     inlineFnCompletion: false
@@ -102,7 +109,8 @@
       "api-blueprint-preview"
       "language-api-blueprint"
       "autosave"
-      "js-hyperclick"
+      "atom-ide-ui"
+      "flow-ide"
     ]
     projectHome: "/Users/mdluo/Develop"
     telemetryConsent: "no"
@@ -131,8 +139,8 @@
   "highlight-selected": {}
   hyperclick:
     darwinTriggerKeys: "altKey"
-    linuxTriggerKeys: "altKey"
-    win32TriggerKeys: "altKey"
+    linuxTriggerKeys: "metaKey"
+    win32TriggerKeys: "metaKey"
   "ide-flow":
     flowPath: "/usr/local/bin/flow"
   "japanese-wrap":
@@ -154,7 +162,8 @@
   "linter-ruby": {}
   "linter-stylelint": {}
   "linter-tidy": {}
-  "linter-ui-default": {}
+  "linter-ui-default":
+    panelHeight: 300
   "markdown-writer": {}
   minimap:
     plugins:
