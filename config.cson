@@ -1,6 +1,7 @@
 "*":
   "Sublime-Style-Column-Selection":
     mouseButtonTrigger: "Middle"
+    selectKeyTrigger: "None"
   "atom-beautify":
     general:
       _analyticsUserId: "2a4cfe25-3546-4503-b4c6-1a876ee7352a"
@@ -11,14 +12,25 @@
       indent_size: 2
     json:
       indent_size: 2
+  "atom-ide-ui":
+    hyperclick:
+      darwinTriggerKeys: "altKey"
+    use:
+      hyperclick: false
+  "atom-package-deps":
+    ignored: []
   "atom-ternjs":
     documentation: false
     inlineFnCompletion: false
     snippetsFirst: true
     useSnippets: true
     useSnippetsAndFunction: true
+  "autocomplete-modules":
+    babelPluginModuleResolver: true
+    webpack: true
   "autocomplete-ruby":
     rsensePath: "/usr/local/var/rbenv/shims/rsense"
+  autosave: {}
   core:
     customFileTypes:
       source: []
@@ -47,7 +59,6 @@
       "language-javascript-semantic"
       "git-projects"
       "activate-power-mode"
-      "atom-typescript"
       "emmet"
       "tab-switcher"
       "smart-tab-name"
@@ -68,14 +79,12 @@
       "language-csharp"
       "language-clojure"
       "tool-bar"
-      "indentation-indicator"
       "tab-control"
       "language-swig"
       "language-javascript-jsx"
       "welcome"
       "autocomplete-ruby"
       "goto-definition"
-      "mixed-indent-warning"
       "linter-less"
       "linter-tidy"
       "linter-csslint"
@@ -99,10 +108,11 @@
     projectHome: "/Users/mdluo/Develop"
     telemetryConsent: "no"
     titleBar: "custom"
-    warnOnLargeFileLimit: 0.1
+    useProxySettingsWhenCallingApm: false
+    warnOnLargeFileLimit: 0.5
   editor:
     fontFamily: "Menlo"
-    fontSize: 17
+    fontSize: 16
     invisibles: {}
     lineHeight: 2
     scrollSensitivity: 20
@@ -132,8 +142,7 @@
     jumpToImport: true
     usePendingPanes: true
   "keyboard-scroll": {}
-  "language-babel":
-    autoIndentJSX: true
+  "language-babel": {}
   "language-log":
     tail: true
   linter: {}
@@ -144,7 +153,8 @@
   "linter-ruby": {}
   "linter-stylelint": {}
   "linter-tidy": {}
-  "linter-ui-default": {}
+  "linter-ui-default":
+    panelHeight: 300
   "markdown-writer": {}
   minimap:
     plugins:
