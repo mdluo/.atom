@@ -42,12 +42,6 @@
       "language-gfm"
       "language-gfm"
       "language-gfm"
-      "language-gfm"
-      "language-gfm"
-      "language-gfm"
-      "language-gfm"
-      "language-gfm"
-      "language-gfm"
       "linter-erb"
       "linter-ruby"
       "language-javascript-semantic"
@@ -70,9 +64,7 @@
       "language-thrift"
       "node-debugger"
       "metrics"
-      "language-toml"
       "language-perl"
-      "language-go"
       "language-csharp"
       "language-clojure"
       "tool-bar"
@@ -95,6 +87,14 @@
       "jsformat"
       "rails-snippets"
       "react-snippets"
+      "git-plus"
+      "git-control"
+      "git-difftool"
+      "git-history"
+      "autocomplete-snippets"
+    ]
+    packagesWithKeymapsDisabled: [
+      "git-difftool"
     ]
     projectHome: "/Users/mdluo/Develop"
     telemetryConsent: "no"
@@ -120,7 +120,8 @@
   "highlight-line":
     enableBackgroundColor: false
   "highlight-selected": {}
-  hyperclick: {}
+  hyperclick:
+    darwinTriggerKeys: "altKey"
   "ide-flow":
     flowPath: "/usr/local/bin/flow"
   "japanese-wrap":
