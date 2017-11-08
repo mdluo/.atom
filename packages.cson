@@ -104,6 +104,7 @@ packages: [
   "open-in-github-app"
   "package-sync"
   "pigments"
+  "prettier-atom"
   "pretty-json"
   "rails-i18n"
   "rails-snippets"
