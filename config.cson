@@ -101,6 +101,7 @@
       "git-difftool"
       "git-history"
       "autocomplete-snippets"
+      "mixed-indent-warning"
     ]
     packagesWithKeymapsDisabled: [
       "git-difftool"
