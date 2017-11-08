@@ -102,7 +102,6 @@
       "ide-flow"
       "jsformat"
       "rails-snippets"
-      "react-snippets"
       "language-swift"
       "mixed-indent-warning"
       "indentation-indicator"
@@ -162,8 +161,7 @@
   "linter-ruby": {}
   "linter-stylelint": {}
   "linter-tidy": {}
-  "linter-ui-default":
-    panelHeight: 300
+  "linter-ui-default": {}
   "markdown-writer": {}
   minimap:
     plugins:
@@ -207,6 +205,11 @@
   "package-sync":
     createOnChange: true
     forceOverwrite: true
+  "prettier-atom":
+    formatOnSaveOptions:
+      enabled: true
+      showInStatusBar: true
+    useEslint: true
   preview:
     _analyticsUserId: "333894b7-880e-4087-bc95-a1040e187128"
   react: {}
