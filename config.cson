@@ -107,7 +107,8 @@
       "git-plus"
       "git-control"
       "git-history"
-      "autocomplete-flow"
+      "autocomplete-snippets"
+      "mixed-indent-warning"
     ]
     packagesWithKeymapsDisabled: [
       "git-difftool"
