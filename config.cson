@@ -107,7 +107,7 @@
       "git-plus"
       "git-control"
       "git-history"
-      "autocomplete-snippets"
+      "autocomplete-flow"
     ]
     packagesWithKeymapsDisabled: [
       "git-difftool"
@@ -160,7 +160,8 @@
   "linter-ruby": {}
   "linter-stylelint": {}
   "linter-tidy": {}
-  "linter-ui-default": {}
+  "linter-ui-default":
+    panelHeight: 69
   "markdown-writer": {}
   minimap:
     plugins:
@@ -206,7 +207,6 @@
     forceOverwrite: true
   "prettier-atom":
     formatOnSaveOptions:
-      enabled: true
       showInStatusBar: true
     useEslint: true
   preview:
