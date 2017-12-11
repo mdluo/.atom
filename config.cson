@@ -109,6 +109,7 @@
       "git-history"
       "autocomplete-snippets"
       "mixed-indent-warning"
+      "autocomplete-flow"
     ]
     packagesWithKeymapsDisabled: [
       "git-difftool"
