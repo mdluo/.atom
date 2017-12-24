@@ -68,6 +68,7 @@
       "flow-ide"
       "autocomplete-snippets"
       "mixed-indent-warning"
+      "autocomplete-flow"
     ]
     packagesWithKeymapsDisabled: [
       "git-difftool"
@@ -120,7 +121,8 @@
   "linter-ruby": {}
   "linter-stylelint": {}
   "linter-tidy": {}
-  "linter-ui-default": {}
+  "linter-ui-default":
+    panelHeight: 69
   "markdown-writer": {}
   minimap:
     plugins:
