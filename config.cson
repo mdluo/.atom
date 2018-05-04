@@ -60,7 +60,6 @@
       "git-projects"
       "activate-power-mode"
       "emmet"
-      "tab-switcher"
       "smart-tab-name"
       "advanced-open-file"
       "autocomplete-php"
@@ -78,7 +77,6 @@
       "language-perl"
       "language-csharp"
       "language-clojure"
-      "tool-bar"
       "tab-control"
       "language-swig"
       "language-javascript-jsx"
@@ -101,13 +99,11 @@
       "api-blueprint-preview"
       "language-api-blueprint"
       "autosave"
-      "atom-ide-ui"
       "flow-ide"
       "react-snippets"
       "git-plus"
       "git-control"
       "git-history"
-      "autocomplete-snippets"
       "mixed-indent-warning"
       "autocomplete-flow"
     ]
@@ -121,7 +117,6 @@
     warnOnLargeFileLimit: 0.5
   editor:
     fontFamily: "Menlo"
-    fontSize: 16
     invisibles: {}
     lineHeight: 2
     scrollSensitivity: 20
@@ -162,8 +157,7 @@
   "linter-ruby": {}
   "linter-stylelint": {}
   "linter-tidy": {}
-  "linter-ui-default":
-    panelHeight: 69
+  "linter-ui-default": {}
   "markdown-writer": {}
   minimap:
     plugins:
@@ -223,5 +217,10 @@
     tabScrolling: true
     usePreviewTabs: true
   "tree-view": {}
+  wakatime:
+    apikey: "Saved in your ~/.wakatime.cfg file"
   welcome:
     showOnStartup: false
+".cpp.source":
+  editor:
+    tabLength: 2
