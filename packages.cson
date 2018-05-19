@@ -35,6 +35,7 @@ packages: [
   "language-apache"
   "language-babel"
   "language-batch"
+  "language-cpp14"
   "language-docker"
   "language-dotenv"
   "language-ejs"
@@ -55,6 +56,7 @@ packages: [
   "lines"
   "linter"
   "linter-cpplint"
+  "linter-csslint"
   "linter-eslint"
   "linter-gcc"
   "linter-htmlhint"
@@ -91,5 +93,6 @@ packages: [
   "standardjs-snippets"
   "Stylus"
   "Sublime-Style-Column-Selection"
+  "tab-control"
   "turbo-javascript"
 ]
