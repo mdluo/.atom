@@ -66,9 +66,13 @@
       "autosave"
       "atom-ide-ui"
       "flow-ide"
-      "autocomplete-snippets"
       "mixed-indent-warning"
       "autocomplete-flow"
+      "linter-htmlhint"
+      "exception-reporting"
+      "autocomplete-atom-api"
+      "react-es7-snippets"
+      "react"
     ]
     packagesWithKeymapsDisabled: [
       "git-difftool"
@@ -80,7 +84,7 @@
     warnOnLargeFileLimit: 0.5
   editor:
     fontFamily: "Menlo"
-    fontSize: 16
+    fontSize: 15
     invisibles: {}
     lineHeight: 2
     scrollSensitivity: 20
@@ -184,3 +188,7 @@
   "tree-view": {}
   welcome:
     showOnStartup: false
+".cpp.source":
+  editor:
+    tabLength: 2
+    tabType: "auto"
